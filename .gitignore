@@ -1,0 +1,13 @@
+### IDEs
+.idea/
+.vscode/
+*.vsproj
+
+### Compiler outputs
+/target/
+/out/
+
+### Memory dumps
+*.mem
+
+# TODO: add ignores on the go
