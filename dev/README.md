@@ -1,9 +1,10 @@
 # Development Environment
 ## Toolchain
-The following toolchain will be needed for the development.
-- **NASM**: to compile Assembly
-- **Make**: to build
-- **QEMU**: to emulate
-- **Binary tool**: to view binaries and hex-dumps
+- Complete `x86_64-elf` cross toolchain with gcc, gdb, ld
+- `make` to build
+- `nasm` and `ndisasm` for Assembly
+- `qemu` for emulated testing
 
-Put each tool's binary on the PATH to be able to call it in the terminal and build scripts. <br>
+## Install the toolchain
+1. `cd` into the `dev` directory
+2. Run `./install-toolchain.sh`

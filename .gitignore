@@ -10,4 +10,7 @@
 ### Memory dumps
 *.mem
 
-# TODO: add ignores on the go
+### Toolchain files
+dev/**
+!dev/install-toolchain.sh
+!dev/README.md
