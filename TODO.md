@@ -5,9 +5,8 @@ A near infinite list of things to do, but here are some good starting points. Th
 This list was compiled from random notes and might be inaccurate or incomplete, but it should give us a good starting point for our development process and help us prioritize our tasks and goals. As we progress with the development, we will likely add more items to this list and update it as needed.
 
 ### Build Environment
-- Create a platform independent Makefile or migrate to Unix - or write a custom build script or something similar.
 - Refactor Makefile to be more modular and easier to maintain.
-- Compile a cross-compiler toolchain for x86_64.
+- Prepare GDB usage during compile time. 
 
 ### Boot Stage
 - Remap PIC to the actual IRQs.
